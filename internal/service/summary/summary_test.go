@@ -72,11 +72,9 @@ func TestGetSummariesHandler(t *testing.T) {
 
 	// Test case for error retrieving summaries
 	t.Run("Summaries empty", func(t *testing.T) {
-		// Create a new router that simulates an error
 		router := gin.Default()
 		testCollection = &collections.OrderCollection{}
 
-		// Define the route for the error case
 		router.GET("/summary", GetSummariesHandler(testCollection))
 
 		req, _ := http.NewRequest("GET", "/summary", nil)
