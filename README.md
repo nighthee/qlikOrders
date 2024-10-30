@@ -7,8 +7,11 @@ Qlik Orders is a Go-based application designed to manage and summarize customer 
 - [Architecture Proposal](#architecture-proposal)
 - [Features](#features)
 - [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+   - [Running Local](#running-local)
+   - [Testing](#testing)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
 
 ## Architecture Proposal
 
