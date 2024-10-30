@@ -96,8 +96,6 @@ This document describes the high-level architecture for a distributed order mana
 - Retrieve items for a specific customer.
 - Get summaries of total spending and number of items purchased by all customers.
 
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -130,8 +128,6 @@ This document describes the high-level architecture for a distributed order mana
 ### Testing
 
 All tests can be run with `go test -v ./...` from the root of the directory.
-
----
 
 ## API Endpoints
 
